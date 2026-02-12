@@ -10,12 +10,12 @@
 
 ## Tech Stack
 
-| Layer       | Technology                    | Purpose                    |
-| ----------- | ----------------------------- | -------------------------- |
-| **Frontend**| React 18 + TypeScript + Vite  | SPA with fast HMR          |
-| **Backend** | NestJS + Node.js + TypeScript | REST API (Modular Monolith)|
-| **Database**| PostgreSQL                    | Primary data store         |
-| **DevOps**  | Docker, GitHub Actions        | Containerization & CI/CD   |
+| Layer        | Technology                    | Purpose                     |
+| ------------ | ----------------------------- | --------------------------- |
+| **Frontend** | React 18 + TypeScript + Vite  | SPA with fast HMR           |
+| **Backend**  | NestJS + Node.js + TypeScript | REST API (Modular Monolith) |
+| **Database** | PostgreSQL                    | Primary data store          |
+| **DevOps**   | Docker, GitHub Actions        | Containerization & CI/CD    |
 
 ---
 
@@ -68,7 +68,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Abhi-s-k/ASSIGNMENT.git
+git clone https://github.com/Pruthvish77/ASSIGNMENT-/
 cd ASSIGNMENT
 ```
 
@@ -112,10 +112,10 @@ docker-compose up -d   # Start PostgreSQL on port 5432
 
 ### 5. Access the app
 
-| Service  | URL                      |
-| -------- | ------------------------ |
-| Frontend | http://localhost:5173    |
-| Backend  | http://localhost:3000    |
+| Service  | URL                       |
+| -------- | ------------------------- |
+| Frontend | http://localhost:5173     |
+| Backend  | http://localhost:3000     |
 | API Docs | http://localhost:3000/api |
 
 ---
@@ -124,19 +124,19 @@ docker-compose up -d   # Start PostgreSQL on port 5432
 
 ### Frontend
 
-| Command        | Description                |
-| -------------- | -------------------------- |
-| `npm run dev`  | Start dev server (Vite)    |
-| `npm run build`| Production build           |
+| Command           | Description              |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Start dev server (Vite)  |
+| `npm run build`   | Production build         |
 | `npm run preview` | Preview production build |
 
 ### Backend
 
-| Command           | Description            |
-| ----------------- | ---------------------- |
-| `npm run start:dev` | Start with hot reload |
-| `npm run build`   | Compile TypeScript     |
-| `npm run start:prod` | Run production build |
+| Command              | Description           |
+| -------------------- | --------------------- |
+| `npm run start:dev`  | Start with hot reload |
+| `npm run build`      | Compile TypeScript    |
+| `npm run start:prod` | Run production build  |
 
 ---
 
@@ -159,4 +159,4 @@ docker-compose up -d   # Start PostgreSQL on port 5432
 
 ## License
 
-MIT © [Abhi-s-k](https://github.com/Abhi-s-k)
+MIT © [Pruthvish77](https://github.com/Pruthvish77/)
